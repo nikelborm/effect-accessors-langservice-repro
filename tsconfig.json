@@ -73,22 +73,20 @@
         "transform": "@effect/language-service/transform",
         "importAliases": { "Array": "EffectArray", "String": "EffectString" }
       }
-    ]
+    ],
+    "declarationDir": "./dist-types",
+    "outDir": "./dist",
+    "baseUrl": "./"
   },
-  "compilerOptions": {
-      "declarationDir": "./dist-types",
-      "outDir": "./dist",
-      "baseUrl": "./"
-    },
-    "include": ["**/*.ts"],
-    "exclude": [
-      "vite.config.ts",
-      ".turbo",
-      "tmp",
-      "dist",
-      "dist-types",
-      "build",
-      "out",
-      "node_modules"
-    ]
+  "include": ["**/*.ts"],
+  "exclude": [
+    "vite.config.ts",
+    ".turbo",
+    "tmp",
+    "dist",
+    "dist-types",
+    "build",
+    "out",
+    "node_modules"
+  ]
 }
