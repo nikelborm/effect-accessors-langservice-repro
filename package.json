@@ -1,0 +1,20 @@
+{
+  "name": "effect-accessors-langservice-repro",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "scripts": {
+  	"build": "tspc"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@effect/language-service": "^0.38.2",
+    "effect": "^3.17.13",
+    "ts-patch": "^3.3.0"
+  }
+}
